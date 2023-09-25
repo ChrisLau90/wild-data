@@ -8,3 +8,19 @@
  Version:      1.0.0
 */
 /*****Add any custom CSS below this line*****/
+
+.post-card {
+  border-radius: 10px;
+  overflow: hidden;
+  border-width: 0px;
+  box-shadow: 0px 32px 80px -16px rgba(85, 103, 127, 0.3);
+}
+
+.post-card .post-title {
+  font-size: 14px !important;
+  letter-spacing: 1px !important;
+  line-height: 1.8em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  text-decoration: none;
+}
