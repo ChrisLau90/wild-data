@@ -12,3 +12,12 @@
 :focus {
   outline: 2px solid #f2954b !important; /* Adjust the color and style as needed */
 }
+
+nav a {
+  border-bottom: 3px solid white;
+}
+
+nav a:focus {
+  outline: none !important;
+  border-bottom: 3px solid #f2954b !important;
+}
