@@ -5,22 +5,10 @@
  Author:       Chris Lau
  Author URI:   https://example.com
  Template:     Divi
- Version:      1.0.0
+ Version:      1.0.1
 */
 /*****Add any custom CSS below this line*****/
 
-.post-card {
-  border-radius: 10px;
-  overflow: hidden;
-  border-width: 0px;
-  box-shadow: 0px 32px 80px -16px rgba(85, 103, 127, 0.3);
-}
-
-.post-card .post-title {
-  font-size: 14px !important;
-  letter-spacing: 1px !important;
-  line-height: 1.8em !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  text-decoration: none;
+:focus {
+  outline: 2px solid #f2954b !important; /* Adjust the color and style as needed */
 }
